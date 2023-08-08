@@ -1,0 +1,135 @@
+
+
+Spring Core :-
+=============
+
+	framework:templates /ready made ,remove boiler plate code
+
+
+		non invasive :spring ,hibernate
+		
+		invasive :struts
+
+
+	spring :
+	
+		spring is non-invasive framework,which is used to create light weight and loosley coupled application.
+
+
+		
+		even though struts is a framework it will force developer to implement predefined api
+		
+
+Servlet/jsp--->web application  django,flask
+
+	
+	web application--->gmail,amazon,flipkart,....url
+	
+	
+	www.gmail.com
+	
+	
+	servlet-->
+	
+	3 ways 
+	
+	1)implements Servlet
+	2)extends GenericServlet
+	3)extends httpServlet (12)
+	
+	
+	
+	inheritance-->code reusability
+	
+	
+	1*12=12 methods
+	100*12=1200 methods-->heavy weight 
+	class Login extends HttpServlet -->light weight 
+	{
+	
+	//12 methods
+	
+	}
+	
+			rod johnson-->2003
+	EJB-->invasive--->spring --->1.x-->non-invasive-->light-weight 
+	
+	
+	loosley coupled and tightly coupled 
+	
+	
+	Object creation
+	
+	
+	A
+	
+	
+	A obj=new A();
+
+
+	
+	class A{
+	
+		A(String name)
+		{
+		
+		
+		}
+		m2()
+		{
+		
+		}
+	
+	}
+	
+	class B{
+	
+	void m1()
+	{
+	A a=new A();
+		a.m2();
+	}
+	 
+	 1000
+	
+	}
+	
+	spring --loosley coupled
+	
+	
+		spring container --->entire life cycle object
+	
+				1)BeanFactory			
+				2)ApplicationContext
+	
+							A
+		creation of object
+		wiring the object
+		configuring the object
+		destroying the object
+		
+		spring core
+				configuration
+						xml config			-->beans,bean,property(setter injection),constructor-arg(constructor injection),ref,autowire,id,class
+						annotation config
+						java config
+					
+				autowiring 
+				
+				@Component,@ComponentScan,@Configuration,@Autowired
+		
+	
+	
+	20+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
